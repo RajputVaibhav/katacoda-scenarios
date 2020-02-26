@@ -4,4 +4,4 @@ You can also view the join commands post creation of cluster using the following
 
 Worker `docker swarm join-token worker`{{execute T1}}
 
-Worker `docker swarm join-token manager`{{execute T1}}
+Manager `docker swarm join-token manager`{{execute T1}}
