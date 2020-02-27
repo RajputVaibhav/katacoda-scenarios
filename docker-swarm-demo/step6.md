@@ -12,12 +12,9 @@ ___
 Save and exit the file.
 
 
-Next, go to `/tmp/prometheus.yml` file and add the following content in it
+Next, we will create the global configuration file for prometheus at `/tmp/prometheus.yml`
 
-___
-
-
-<pre>
+cat << EOF >> /tmp/prometheus.yml
 global:
   scrape_interval:     15s 
   evaluation_interval: 15s 
@@ -39,7 +36,7 @@ scrape_configs:
 
     static_configs:
       - targets: ['localhost:9323']
-</pre>
+EOF
 
 
 ___
