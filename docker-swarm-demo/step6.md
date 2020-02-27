@@ -15,6 +15,8 @@ Save and exit the file.
 Next, go to `/tmp/prometheus.yml` file and add the following content in it
 
 ___
+
+
 <pre>
 global:
   scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
@@ -38,6 +40,8 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9323']
 </pre>
+
+
 ___
 
 Now, start a single-replica Prometheus service using this configuration
