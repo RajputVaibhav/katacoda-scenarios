@@ -1,1 +1,0 @@
-We are going to execute `pwd` by clicking `pwd`{{execute}}
