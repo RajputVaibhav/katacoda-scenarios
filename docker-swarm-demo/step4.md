@@ -15,3 +15,4 @@ And on second host, run
 `curl host01`{{execute T2}}
 `curl host02`{{execute T2}}
 
+You can also access the Welcome page at https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
