@@ -29,3 +29,5 @@
 
 `kubectl proxy`{{execute T1}}
 
+
+https://[[HOST_SUBDOMAIN]]-8001-[[KATACODA_HOST]].environments.katacoda.com
