@@ -39,7 +39,9 @@ scrape_configs:
 
     static_configs:
       - targets: ['localhost:9323']
-EOF```{{execute T1}}
+EOF
+``` 
+{{execute T1}}
 
 
 <br/>
