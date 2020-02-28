@@ -4,4 +4,4 @@ In this demo we will be deploying a Sentiment Analysis app based on the followin
 <br/><br/>
 
 
-![Architecture Logo](/assets/architecture.png)
+![Architecture Logo](assets/architecture.png)
