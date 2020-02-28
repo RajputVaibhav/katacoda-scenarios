@@ -1,15 +1,9 @@
-`docker inspect <container-id>`
+To run the sa-logic container which executes the python model, use
 
 
-`docker ps`{{execute}}
+`docker run -d -p 5050:5050 vaibhavrajput/docker-demo-sa-logic`{{execute}}
 
 
-`docker run -d -p 8080:8080 -e SA_LOGIC_API_URL=http://<container-ip of sa-logic>:5000 vaibhavrajput/docker-demo-sa-webapp`
+<br/>
 
-
-`docker run -d -p 8080:8080 -e SA_LOGIC_API_URL=http://$(docker ps | awk '{
-if($2 =="vaibhavrajput/docker-demo-sa-logic")
-{
-print $1;
-}
-}'):5000 vaibhavrajput/docker-demo-sa-webapp`{{execute}}
+Use `docker ps`{{execute}} to see the running containers
