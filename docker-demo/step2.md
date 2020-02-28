@@ -1,7 +1,7 @@
 To run the sa-logic container which executes the python model, use
 
 
-`docker run -d -p 5050:5050 vaibhavrajput/docker-demo-sa-logic`{{execute}}
+`docker run -d -p 5050:5000 vaibhavrajput/docker-demo-sa-logic`{{execute}}
 
 
 <br/>
