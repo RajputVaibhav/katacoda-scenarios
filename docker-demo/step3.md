@@ -3,6 +3,7 @@
 # Create a Dockerfile in sa-webapp
 
 
+- Set Java home using `export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre`{{execute}}
 - Go to webapp directory using `cd sa-webapp`{{execute}} and build using `mvn clean install`{{execute}}
 - Start with `openjdk:8-jdk-alpine` image
 - Set environment variable `SA_LOGIC_API_URL` with value `http://localhost:5000`
