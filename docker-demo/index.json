@@ -30,8 +30,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uisettings": "dockerfile"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu"
