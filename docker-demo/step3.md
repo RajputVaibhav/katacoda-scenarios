@@ -1,3 +1,22 @@
+<br/>
+
+# Create a Dockerfile in sa-webapp
+
+
+- Go to webapp directory using `cd sa-webapp`{{execute}} and build using `mvn clean install`{{execute}}
+- Start with `openjdk:8-jdk-alpine` image
+- Set environment variable `SA_LOGIC_API_URL` with value `http://localhost:5000`
+- Add `target/sentiment-analysis-web-0.0.1-SNAPSHOT.jar` at default path in the container
+- Expose `8080` port
+- Run `java -jar sentiment-analysis-web-0.0.1-SNAPSHOT.jar --sa.logic.api.url=${SA_LOGIC_API_URL}"` command in the container
+
+
+<br/>
+
+
+---
+
+
 Get the IP of sa-logic container using the `docker inspect <container-id>` command. To get the container id, run `docker ps`{{execute}}
 
 <br/>
