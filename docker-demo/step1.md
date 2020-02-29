@@ -12,6 +12,3 @@ There are three folders namely
 * sa-frontend
 * sa-logic
 * sa-webapp
-
-
-**Use setup.sh file to install missing packages needed in this demo**
