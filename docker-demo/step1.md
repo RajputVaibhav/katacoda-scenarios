@@ -1,6 +1,6 @@
 To get the code used in this demo, clone the following repo
 
-`git clone https://github.com/abhishek-chowdhary/container-microservice-app.git`{{execute}}
+`git clone -b demo https://github.com/abhishek-chowdhary/container-microservice-app.git`{{execute}}
 
 <br/>
 
