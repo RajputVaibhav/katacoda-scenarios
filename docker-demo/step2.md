@@ -5,7 +5,7 @@ To run the sa-logic container which executes the python logic in a container.
 # Create a Dockerfile in sa-logic
 
 
-- Go to logic directory using `cd sa-logic`{{execute}}
+- Go to logic directory using `cd ~/container-microservice-app/sa-logic`{{execute}}
 - Start with `python:3.6.6-alpine` image
 - Copy contents of `sa` folder in `/app` folder of the container
 - Set working directory to `/app`
