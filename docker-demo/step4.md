@@ -1,5 +1,18 @@
 Finally, run the following command to execute the frontend container
 
+<br/>
+
+# Create a Dockerfile in sa-frontend
+
+- Go to frontend directory using `cd sa-frontend`{{execute}} and build app using `npm run build`{{execute}}  
+- Start with `nginx` image 
+- Copy contents of `build` folder in `/usr/share/nginx/html` of container
+
+<br/>
+
+
+---
+
 
 `docker run -d -p 80:80 vaibhavrajput/docker-demo-sa-frontend`{{execute}}
 
