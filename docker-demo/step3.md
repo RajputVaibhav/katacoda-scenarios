@@ -18,6 +18,14 @@
 ---
 
 
+Build image using from Dockerfile
+
+
+Sample command: `docker build -t sa-logic .`
+
+<br/>
+
+
 Get the IP of sa-logic container using the `docker inspect <container-id>` command. To get the container id, run `docker ps`{{execute}}
 
 <br/>
@@ -33,10 +41,13 @@ print $1;
 
 
 <br/>
+
+
+
 After fetching the container IP, run the following command by replacing the correct IP in value for `SA_LOGIC_API_URL` environment variable
 
 
-`docker run -d -p 8080:8080 -e SA_LOGIC_API_URL=http://<container-ip of sa-logic>:5000 vaibhavrajput/docker-demo-sa-webapp`
+Sample command: `docker run -d -p 8080:8080 -e SA_LOGIC_API_URL=http://<container-ip of sa-logic>:5000 vaibhavrajput/docker-demo-sa-webapp`
 
 <br/>
 
