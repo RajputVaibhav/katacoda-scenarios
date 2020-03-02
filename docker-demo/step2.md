@@ -19,7 +19,17 @@ To run the sa-logic container which executes the python logic in a container.
 ---
 
 
-`docker run -d -p 5050:5000 vaibhavrajput/docker-demo-sa-logic`{{execute}}
+Build image using from Dockerfile
+
+
+Sample command: `docker build -t sa-logic .`
+
+<br/>
+
+Run the container
+
+
+Sample command: `docker run -d -p 5050:5000 vaibhavrajput/docker-demo-sa-logic`{{execute}}
 
 
 <br/>
