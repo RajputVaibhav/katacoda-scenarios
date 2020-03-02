@@ -21,7 +21,7 @@
 Build image using from Dockerfile
 
 
-Sample command: `docker build -t sa-logic .`
+Sample command: `docker build -t sa-webapp .`
 
 <br/>
 
