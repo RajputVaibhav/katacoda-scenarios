@@ -14,7 +14,17 @@ Finally, run the following command to execute the frontend container
 ---
 
 
-`docker run -d -p 80:80 vaibhavrajput/docker-demo-sa-frontend`{{execute}}
+Build image using from Dockerfile
+
+
+Sample command: `docker build -t sa-frontend .`
+
+<br/>
+
+Run the container
+
+
+Sample command: `docker run -d -p 80:80 vaibhavrajput/docker-demo-sa-frontend`{{execute}}
 
 <br/>
 
