@@ -31,7 +31,7 @@ Now run the webapp container which will call the logic container at https://[[HO
 
 
 To configure this, pass the `SA_LOGIC_API_URL` environment variable with the https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com URL
-Sample command: `docker run -d -p 8080:8080 -e SA_LOGIC_API_URL= <sa-logic container URL here> vaibhavrajput/docker-demo-sa-webapp`
+Sample command: `docker run -d -p 8080:8080 -e SA_LOGIC_API_URL= <sa-logic container URL here> sa-webapp`
 
 <br/>
 
