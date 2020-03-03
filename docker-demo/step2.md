@@ -29,7 +29,7 @@ Sample command: `docker build -t sa-logic .`
 Run the container
 
 
-Sample command: `docker run -d -p 5050:5000 sa-logic`
+Sample command: `docker run -d -p 5000:5000 sa-logic`
 
 
 <br/>
