@@ -26,7 +26,7 @@ Sample command: `docker build -t sa-frontend .`
 Run the container
 
 
-Sample command: `docker run -d -p 80:80 vaibhavrajput/docker-demo-sa-frontend`{{execute}}
+Sample command: `docker run -d -p 80:80 sa-frontend`
 
 <br/>
 
