@@ -21,8 +21,8 @@ Answer all the questions below
 ( ) docker build
 (*) docker run
 
->>Q5. Which command is used to stop a running container?<<
-( ) docker stop
+>>Q5. Which command can be used to stop a running container?<<
+( ) docker terminate
 (*) docker kill
 ( ) docker delete
 
