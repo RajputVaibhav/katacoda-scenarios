@@ -3,7 +3,7 @@
 <pre class="file" data-filename="docker-compose.yml" data-target="replace">
 version: '3'
 services:
-  flask:
+  logical-name:
     image: image-name
     ports:
       - "host-port:container-port"
