@@ -18,8 +18,8 @@ Answer all the questions below
 
 >>Q4. Which of them is an invalid value of restart tag?<< 
 ( ) always
-( ) on-completiom
-(*) on-failure
+(*) on-completiom
+( ) on-failure
 
 >>Q5. Which of these tags are used to set environment variable?<<
 (*) environment
