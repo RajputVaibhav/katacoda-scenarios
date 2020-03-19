@@ -28,10 +28,3 @@ Now, build frontend image using
 
 `docker build -t frontend -f Dockerfile-frontend .`{{execute}}
 
-
-## CREATE OVERLAY NETWORK
-
-
-<br/>
-
-Create an overlay network using `docker network create --driver overlay <network-name>`
