@@ -1,8 +1,8 @@
 {
-  "title": "Kubernetes Demo",
-  "description": "Create Kubernetes cluster and its resources. Furthermore, installing multiple plugins",
+  "title": "Harbor",
+  "description": "Install, configure and use Harbor",
   "difficulty": "Beginner",
-  "time": "30 minutes",
+  "time": "20",
   "details": {
     "steps": [
       {
@@ -20,12 +20,8 @@
       {
         "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
-   ],
+    ],
     "intro": {
       "text": "intro.md"
     },
@@ -34,9 +30,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "ubuntu"
   }
 }
