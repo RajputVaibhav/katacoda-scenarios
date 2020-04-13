@@ -16,4 +16,4 @@ Now, tag the image using `docker tag ubuntu [[HOST_IP]]/<project-name>/ubuntu` c
 
 <br/>
 
-Once tagged, push the image to the Harbor registry using `docker push [HOST_IP]]/<project-name>/ubuntu` command.
+Once tagged, push the image to the Harbor registry using `docker push [[HOST_IP]]/<project-name>/ubuntu` command.
