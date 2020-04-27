@@ -9,7 +9,8 @@ To run the sa-logic container which executes the python logic in a container.
 - Start with `python:3.6.6-alpine` image
 - Copy contents of `sa` folder in `/app` folder of the container
 - Set working directory to `/app`
-- Install the required folders using `pip3 install -r requirements.txt` and `python3 -m textblob.download_corpora`
+- Install GCC using `apk add build-base`
+- Install the required packages using `pip3 install -r requirements.txt` and `python3 -m textblob.download_corpora`
 - Expose `5000` port
 - Run `python3 sentiment_analysis.py` command
 
