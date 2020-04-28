@@ -18,8 +18,3 @@ Try running it on `vaibhavrajput/compose-demo-api` image using the following com
 
 `CLAIR_ADDR=http://localhost:6060 CLAIR_OUTPUT=Low CLAIR_THRESHOLD=10 klar vaibhavrajput/compose-demo-api`{{execute}}
 
----
-
-Remember the `jq` that we installed? Now we'll be using it to get a prettier response as follows
-
-`CLAIR_ADDR=http://localhost:6060 CLAIR_OUTPUT=Low CLAIR_THRESHOLD=10 klar vaibhavrajput/compose-demo-api | jq`{{execute}}
