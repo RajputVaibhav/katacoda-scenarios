@@ -31,5 +31,6 @@ def list_changed_blocks():
     )
     for item in response['ChangedBlocks']:
         if('FirstBlockToken' in item.keys()):
-            print('{} : {}'.format(key,value))
-        print('\n')
+            for key,value in item.items():
+                print('{} : {}'.format(key,value))
+            print('\n')
