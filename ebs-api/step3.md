@@ -4,4 +4,4 @@ Download the Python code using the following command
 
 ---
 
-Once downloaded, open the file in the editor and execute as directed by the presenter.
+Once downloaded, open the `ebs-api.py` file in the editor and execute as directed by the presenter.
