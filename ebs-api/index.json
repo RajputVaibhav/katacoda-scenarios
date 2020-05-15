@@ -1,6 +1,6 @@
 {
-  "title": "S3 Access Point",
-  "description": "We will create S3 Access points and apply policies to control access",
+  "title": "EBS API",
+  "description": "Test our hands on EBS APIs launched in reInvent",
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
@@ -17,14 +17,6 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
     ],
     "intro": {
@@ -35,7 +27,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu1804"
