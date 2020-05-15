@@ -6,9 +6,9 @@ One the installation is complete, let's start by configuring it to use your acco
 
 Run `aws configure`{{execute}} to commence configuration. You will be asked for the following input
 
-AWS Access Key ID [None]: `<Access Key ID for your account>`
+AWS Access Key ID [None]: `<Access Key ID>`
 
-AWS Secret Access Key [None]: `<Secret Access Key> for your account`
+AWS Secret Access Key [None]: `<Secret Access>`
 
 Default region name [None]: `us-west-2`
 

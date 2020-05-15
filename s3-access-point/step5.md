@@ -26,7 +26,7 @@ Click edit and copy this policy. You may use policy-generator as well
             "Effect": "Deny",
             "Principal": "*",
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:<REGION>:<ACCOUNT_NUM>:accesspoint/reader/object/*"
+            "Resource": "arn:aws:s3:REGION:ACCOUNT_NUM:accesspoint/reader/object/*"
         }
     ]
 }
